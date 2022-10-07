@@ -7,16 +7,6 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
   <FooterWrapper>
-    <LinkList>
-      <LinkColumn>
-      <LinkTitle>Call</LinkTitle>
-      <LinkItem href="tel:832-871-9742">832-971-97**</LinkItem>
-      </LinkColumn>
-      <LinkColumn>
-      <LinkTitle>Email</LinkTitle>
-      <LinkItem href="Osoriomarv@gmail.com">Osoriomarv@gmail.com</LinkItem>
-      </LinkColumn>
-    </LinkList>
     <SocialIconsContainer>
       <CompanyContainer>
         <Slogan>Improvement Everyday</Slogan>

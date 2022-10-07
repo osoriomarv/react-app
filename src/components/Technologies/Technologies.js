@@ -1,6 +1,7 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+//import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { RiComputerFill } from 'react-icons/ri';
+import { GiCheckedShield } from 'react-icons/gi';
 import { AiOutlineExperiment } from 'react-icons/ai';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -25,6 +26,21 @@ const Technologies = () =>  (
             SQL <br/>
             JavaScript <br/>
             React <br/>
+          </ListParagraph>
+        </ListContainer>
+    </ListItem>
+    <ListItem>
+      <GiCheckedShield size="3rem"/>
+        <ListContainer>
+          <ListTitle>Cybersecurity</ListTitle>
+          <ListParagraph>
+            Expirience with the following: <br/>
+            Kali Linux <br/>
+            Metasploit <br/>
+            BurpSuite <br/>
+            Nmap <br/>
+            Wireshark <br/>
+            google <br/>
           </ListParagraph>
         </ListContainer>
     </ListItem>
