@@ -11,12 +11,7 @@ const Hero = () => (
         Hello, My name is Marvin
         </SectionTitle>
         <SectionText>
-          Currently I am a graduate student at Tulane, pursuing a Master's in Geology.
-          By working with computation models I have found a passion for programming. 
-          This passion led me down a path of self learning using websites like CodeAcademy, 
-          Datacamp and sitting in on computer science lectures in my free time.
-          While developing my skills on codeacademy I discoved another passion, Cybersecurity. 
-          Since then I have used TryHackMe (top 7%) and HackTheBox to increase my skills.
+          I am a Graduate Student at the Tulane University of New Orleans. I work in the High Temperature and High Pressure Laboratory (HiTap). By working with computational models I have found a passion for progamming and coding which i hope to explore and develop.
         </SectionText>
         <Button onClick={() => window.location = 'https://github.com/osoriomarv'}>
           Learn More
